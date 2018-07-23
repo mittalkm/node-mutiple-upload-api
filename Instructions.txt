@@ -4,4 +4,4 @@
 it should say that server started on port 3000.
 3-this turns on the server where the files are to be uploaded , minimise the cmd window if you want.
 4-simply open the index.html file on your browser and start uploading as many photos as you want . ( I've tested the api for 20 uploads at a time )
-
+5- the files you upload will appear in uploaded_files folder.

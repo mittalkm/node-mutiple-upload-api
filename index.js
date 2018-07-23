@@ -12,7 +12,7 @@ app.post('/upload', function(req, res) {
   //console.log(req.files);
   for(let fileo of req.files.foo){
     let name=fileo.name; 
-    fileo.mv('./server/'+name,function(err){
+    fileo.mv('./uploaded_files/'+name,function(err){
         if (err)
             return res.status(500).send(err);
       });
