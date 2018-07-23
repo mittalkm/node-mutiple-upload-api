@@ -1,0 +1,7 @@
+1- Install node.js on your system.
+2- open cmd in the directory of the project and type following without inverted commas -
+"node index.js"
+it should say that server started on port 3000.
+3-this turns on the server where the files are to be uploaded , minimise the cmd window if you want.
+4-simply open the index.html file on your browser and start uploading as many photos as you want . ( I've tested the api for 20 uploads at a time )
+
